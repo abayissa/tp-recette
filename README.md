@@ -35,6 +35,21 @@ Application web de génération de recettes personnalisées avec analyse nutriti
 
 ---
 
+# Supabase
+
+Le projet utilise Supabase pour :
+
+- l’authentification des utilisateurs
+- la sauvegarde des profils utilisateurs
+- la sauvegarde des recettes générées
+
+Les tables utilisées sont :
+
+- profiles
+- recipes
+
+---
+
 # Installation du projet
 
 ## 1. Cloner le repository --> git clone [url-du-repository]
@@ -44,6 +59,8 @@ Application web de génération de recettes personnalisées avec analyse nutriti
 ## 3. Créer le fichier .env.local à la racine du projet
 
 ## 4. Lancer le projet --> npm run dev
+
+
 
 
 
